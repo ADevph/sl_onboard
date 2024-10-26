@@ -1,0 +1,18 @@
+[
+    {
+      "Name": "Trade Service",
+      "Description": "",
+      "ImageUrl": "../src/assets/trade.svg"
+    },
+    {
+      "Name": "New BO Account",
+      "Description": "",
+      "ImageUrl": "../src/assets/acc.svg"
+    },
+    {
+      "Name": "Knowledge Base",
+      "Description": "",
+      "ImageUrl": "../src/assets/research.svg"
+    }
+  ]
+  

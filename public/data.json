@@ -1,0 +1,142 @@
+[
+  {
+    "trading_code": "1JANATAMF",
+    "last_trading_price": "3.50",
+    "change": "0",
+    "change_percent": "0%",
+    "indicator": "No Change"
+  },
+  {
+    "trading_code": "1STPRIMFMF",
+    "last_trading_price": "51.40",
+    "change": "4.6",
+    "change_percent": "9.83%",
+    "indicator": "Up"
+  },
+  {
+    "trading_code": "AAMRANET",
+    "last_trading_price": "33.80",
+    "change": "-0.5",
+    "change_percent": "-1.46%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "AAMRATECH",
+    "last_trading_price": "22.90",
+    "change": "0.3",
+    "change_percent": "1.33%",
+    "indicator": "Up"
+  },
+  {
+    "trading_code": "ABB1STMF",
+    "last_trading_price": "3.40",
+    "change": "0.2",
+    "change_percent": "0.5%",
+    "indicator": "Up"
+  },
+  {
+    "trading_code": "ABBANK",
+    "last_trading_price": "7.80",
+    "change": "0.3",
+    "change_percent": "4%",
+    "indicator": "Up"
+  },
+  {
+    "trading_code": "ABBLPBOND",
+    "last_trading_price": "0.00",
+    "change": "-955.5",
+    "change_percent": "-100%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "ACFL",
+    "last_trading_price": "18.30",
+    "change": "-0.5",
+    "change_percent": "-2.66%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "ACI",
+    "last_trading_price": "129.30",
+    "change": "2.2",
+    "change_percent": "1.73%",
+    "indicator": "Up"
+  },
+  {
+    "trading_code": "ACIFORMULA",
+    "last_trading_price": "121.80",
+    "change": "0.8",
+    "change_percent": "0.66%",
+    "indicator": "Up"
+  },
+  {
+    "trading_code": "ACMELAB",
+    "last_trading_price": "71.10",
+    "change": "-0.9",
+    "change_percent": "-1.25%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "ACMEPL",
+    "last_trading_price": "16.00",
+    "change": "-0.4",
+    "change_percent": "-2.44%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "ACTIVEFINE",
+    "last_trading_price": "14.40",
+    "change": "-0.4",
+    "change_percent": "-2.7%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "ADNTEL",
+    "last_trading_price": "101.10",
+    "change": "-1",
+    "change_percent": "-0.98%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "ADVENT",
+    "last_trading_price": "26.60",
+    "change": "-0.7",
+    "change_percent": "-2.56%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "DESHBANDHU",
+    "last_trading_price": "32.90",
+    "change": "-0.6",
+    "change_percent": "-1.79%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "DGIC",
+    "last_trading_price": "27.80",
+    "change": "-0.5",
+    "change_percent": "-1.77%",
+    "indicator": "Down"
+  },
+  {
+    "trading_code": "DHAKABANK",
+    "last_trading_price": "10.70",
+    "change": "0.3",
+    "change_percent": "2.88%",
+    "indicator": "Up"
+  },
+  {
+    "trading_code": "DHAKAINS",
+    "last_trading_price": "40.40",
+    "change": "0.1",
+    "change_percent": "0.25%",
+    "indicator": "Up"
+  },
+  {
+    "trading_code": "DOMINAGE",
+    "last_trading_price": "12.10",
+    "change": "-0.2",
+    "change_percent": "-1.63%",
+    "indicator": "Down"
+  }
+]
