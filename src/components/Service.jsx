@@ -3,6 +3,17 @@ import axios from "axios";
 
 const AppMenuItemSection = () => {
   const [AppMenuItem, setAppMenuItem] = useState([]);
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1024);
+
+  // Update the screen size state when the window resizes
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth >= 1024);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -17,39 +28,37 @@ const AppMenuItemSection = () => {
   }, []);
 
   return (
-    <div className="d-flex justify-content-center align-items-center" style={{gap:'20px'}} >
-
-        {AppMenuItem.slice(0, 3).map((item, index) => (
-          <div
-            className={`border-start border-danger border-1 rounded-2`}
-            style={{
-              boxShadow: "4px -4px 6px rgba(0, 0, 0, 0.2)",
-              width: "110px",
-              height: "90px",
-              marginTop:"15px",
-              // marginBottom:"15px",
-              borderBottom: "1px solid red",
-              borderLeft: "1px solid red",
-              borderRadius: "5px", // Set border radius to 5px
-              display: "flex", // Make this a flex container
-              flexDirection: "column", // Arrange items in a column
-              justifyContent: "center", // Center content vertically
-              alignItems: "center", // Center content horizontally
-            }}
-          >
-            <img
-              src={item.ImageUrl}
-              alt={item.Name}
-              height="60px"
-              width="50px"
-              className="mb-1 object-fit-contain"
-            />
-            <span className="text-center" style={{ fontSize: "12px" }}>
-              {item.Name}
-            </span>
-          </div>
-        ))}
- 
+    <div className="d-flex justify-content-center align-items-center" style={{ gap: "20px" }}>
+      {AppMenuItem.slice(0, 3).map((item, index) => (
+        <div
+          key={index}
+          className="border-start border-danger border-1 rounded-2"
+          style={{
+            boxShadow: "4px -4px 6px rgba(0, 0, 0, 0.2)",
+            width: isLargeScreen ? "190px" : "110px", // Width based on screen size
+            height: isLargeScreen ? "140px" : "90px", // Height based on screen size
+            marginTop: "15px",
+            borderBottom: "1px solid red",
+            borderLeft: "1px solid red",
+            borderRadius: "5px",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src={item.ImageUrl}
+            alt={item.Name}
+            height={isLargeScreen ? "80px" : "60px"} // Adjusted image height
+            width={isLargeScreen ? "70px" : "50px"} // Adjusted image width
+            className="mb-1 object-fit-contain"
+          />
+          <span className="text-center" style={{ fontSize: isLargeScreen ? "13px" : "12px", fontWeight: "bold" }}>
+            {item.Name}
+          </span>
+        </div>
+      ))}
     </div>
   );
 };

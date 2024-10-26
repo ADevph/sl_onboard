@@ -32,7 +32,7 @@ const SliderSection = () => {
     return (
         <Carousel
             style={{
-                height: isMobile ? '170px' : '300px', 
+                height: isMobile ? '170px' : '325px', 
                 margin: 'auto', 
                 background: 'white'
             }}

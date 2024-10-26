@@ -28,7 +28,7 @@ function App() {
   const boxShadowStyle = {
     backgroundColor: "white",
     boxShadow: "0px -3px 3px rgba(0, 0, 0, 0.15), 0px 3px 3px rgba(0, 0, 0, 0.15)",
-    height: isMobile ? "450px" : "600px", // Conditional height
+    height: isMobile ? "450px" : "650px", // Conditional height
     // height: isTablet ? "50px" : "600px", // Conditional height
     width: "100%",
     marginTop: "20px",
